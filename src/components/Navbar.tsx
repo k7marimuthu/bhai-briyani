@@ -77,18 +77,18 @@ const Navbar = ({
                 <SearchIcon className="h-5 w-5" />
                 <span>Search</span>
               </button>
-              <a href="#" className="text-white hover:text-gray-200">
+              <button 
+                onClick={onBookTableClick}
+                className="text-white hover:text-gray-200"
+              >
                 Outlets
-              </a>
+              </button>
               <button 
                 onClick={onMenuClick}
                 className="text-white hover:text-gray-200"
               >
                 Menu
               </button>
-              <a href="#" className="text-white hover:text-gray-200">
-                Bulk Orders
-              </a>
               <button 
                 onClick={onBookTableClick}
                 className="text-white hover:text-gray-200"
