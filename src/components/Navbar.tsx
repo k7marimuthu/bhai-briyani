@@ -43,7 +43,7 @@ const Navbar = ({
             {/* Logo and Location Section */}
             <div className="flex items-center flex-1">
               <button onClick={onMenuClick} className="flex items-center">
-                <img src="./Group 39781.png" alt="Bhai Biryani" className="h-8 md:h-12" />
+                <img src="/src/Group 39781.png" alt="Bhai Biryani" className="h-8 md:h-12" />
               </button>
 
               {/* Location Section - Hidden on mobile */}
